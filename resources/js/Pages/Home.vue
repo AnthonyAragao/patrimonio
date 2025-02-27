@@ -4,6 +4,8 @@
 </script>
 
 <template>
+    <Head title="Patrimônio Cultural de Sergipe" />
+
     <Layout>
         <section class="relative mb-60">
             <div class="w-full h-[900px] overflow-hidden -mt-36 rounded-b-[30%] relative">
