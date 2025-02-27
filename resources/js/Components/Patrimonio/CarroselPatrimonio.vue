@@ -14,7 +14,7 @@
 </script>
 
 <template>
-    <div class="max-w-[1200px] mx-auto space-x-6 absolute -bottom-48 left-0 right-0">
+    <div class="max-w-[1200px] mx-auto absolute -bottom-48 left-0 right-0">
         <div class="flex justify-between items-center">
             <div class="flex items-center gap-4 mb-4">
                 <img src="/images/casa.png" alt="casa" class="size-20">
@@ -29,12 +29,14 @@
 
             <a
                 href=""
-                class="text-white font-bold rounded-full px-10 py-4 bg-transparent border-2 uppercase text-sm border-white flex items-center gap-2 hover:bg-blue-600 hover:border-blue-600 transition-all duration-300 ease-in-out"
+                class="text-white font-bold rounded-full px-10 py-4 border-2 uppercase text-sm border-white transition-all duration-300 ease-in-out overflow-hidden btn has-before"
             >
-                visualizar todos
-                <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
-                </svg>
+                <span class="flex items-center gap-2">
+                    visualizar todos
+                    <svg xmlns="http://www.w3.org/2000/svg" class="size-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                    </svg>
+                </span>
             </a>
         </div>
 
@@ -92,6 +94,35 @@
     .swiper-button-prev::after {
         font-size: 24px;
         color: white;
+    }
+
+    .has-before,
+    .has-after {
+        position: relative;
+        z-index: 1;
+    }
+
+    .has-before::before,
+    .has-after::after {
+        position: absolute;
+        content: "";
+    }
+
+    .btn::before{
+        background-color: #1D4ED8;
+        inset: 0;
+        z-index: -1;
+        transform: skewY(-15deg) scaleY(0);
+        transition: 0.5s;
+    }
+
+    .btn:hover::before,
+    .btn:focus::before{
+        transform: skewY(-15deg) scaleY(3);
+    }
+
+    .btn:hover{
+        border-color: #1D4ED8;
     }
 </style>
 

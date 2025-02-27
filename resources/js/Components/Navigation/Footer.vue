@@ -1,6 +1,11 @@
 <template>
-    <footer class="bg-gray-900">
-        <div class="max-w-[1200px] mx-auto py-8 px-2 flex justify-between items-center">
+    <footer class="bg-gray-900 relative overflow-hidden
+        after:content-[''] after:absolute after:w-full after:h-2 after:bg-blue-700 after:top-0
+    ">
+        <div class="max-w-[1200px] mx-auto py-8 px-2 flex justify-between items-center
+            after:content-[''] after:absolute after:size-24 after:rounded-full after:bg-blue-700 after:-top-10 after:-left-14
+            before:content-[''] before:absolute before:size-24 before:rounded-full before:bg-blue-700 before:-bottom-20 before:-right-14
+        ">
             <h2 class="text-white text-2xl font-bold uppercase tracking-[.4rem] flex flex-col gap-1">
                 <span>patrimônio</span>
                 <span>cultural</span>
@@ -15,7 +20,7 @@
                 <li> <a href="">Fale conosco</a> </li>
             </ul>
 
-            <ul class="flex flex-col text-white font-medium text-sm">
+            <ul class="flex flex-col text-white font-medium text-sm text-center">
                 <li> <a href="">Política de privacidade</a> </li>
                 <li> <a href="">Termos de uso</a> </li>
             </ul>
