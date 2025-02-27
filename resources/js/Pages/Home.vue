@@ -5,9 +5,10 @@
 
 <template>
     <Layout>
-        <section>
+        <section class="relative mb-60">
             <div class="w-full h-[900px] overflow-hidden -mt-36 rounded-b-[30%] relative">
                 <div class="before:content-[''] before:absolute before:rounded-b-[30%] before:w-full before:h-full before:bg-gray-900 before:opacity-[.70]"></div>
+
                 <img src="/images/sergipe.jpg" alt="Sergipe" class="w-full object-cover">
 
                 <div class="absolute inset-0 flex flex-col justify-center items-center text-white text-center">

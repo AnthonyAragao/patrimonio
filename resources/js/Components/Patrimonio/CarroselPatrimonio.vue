@@ -14,7 +14,7 @@
 </script>
 
 <template>
-    <div class="max-w-[1200px] mx-auto space-x-6 relative -top-60">
+    <div class="max-w-[1200px] mx-auto space-x-6 absolute -bottom-48 left-0 right-0">
         <div class="flex justify-between items-center">
             <div class="flex items-center gap-4 mb-4">
                 <img src="/images/casa.png" alt="casa" class="size-20">

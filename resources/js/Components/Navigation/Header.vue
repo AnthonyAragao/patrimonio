@@ -18,7 +18,6 @@
     </header>
 </template>
 
-
 <style scoped>
     li{
         position: relative;
