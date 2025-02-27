@@ -34,7 +34,7 @@
         position: absolute;
         width: 0;
         height: 2px;
-        background-color: #0E4194;
+        background-color: #2570e9;
         bottom: -4px;
         transition: all .3s;
     }
