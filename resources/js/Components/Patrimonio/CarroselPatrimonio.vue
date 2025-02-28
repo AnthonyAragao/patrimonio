@@ -53,7 +53,7 @@
                 v-for="(banner, index) in banners"
                 :key="index"
             >
-                <a href="">
+                <Link href="/bens-tombados/teste">
                     <img
                         :src="banner"
                         :alt="'Banner ' + (index + 1)"
@@ -63,7 +63,7 @@
                     <p class="text-center text-black mt-2 font-bold">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique est, consequatur animi ad dignissimos excepturi.
                     </p>
-                </a>
+                </Link>
             </SwiperSlide>
         </Swiper>
     </div>
@@ -109,7 +109,7 @@
     }
 
     .btn::before{
-        background-color: #1D4ED8;
+        background-color: #2570e9;
         inset: 0;
         z-index: -1;
         transform: skewY(-15deg) scaleY(0);
@@ -122,7 +122,7 @@
     }
 
     .btn:hover{
-        border-color: #1D4ED8;
+        border-color: #2570e9;
     }
 </style>
 

@@ -8,7 +8,7 @@
 
         <nav>
             <ul class="flex space-x-6 text-white font-medium ">
-                <li> <a href="">Início</a> </li>
+                <li> <Link href="/">Início</Link> </li>
                 <li> <a href="">Acervo</a> </li>
                 <li> <a href="">Patrimônio Cultural</a></li>
                 <li> <a href="">Bens tombados</a> </li>

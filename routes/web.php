@@ -9,6 +9,11 @@ Route::get('/', function () {
     return Inertia::render('Home');
 });
 
+Route::get('/bens-tombados/{slug}', function ($slug) {
+    return Inertia::render('Patrimonio/BensTombados/Show');
+});
+
+
 Route::get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->middleware(['auth', 'verified'])->name('dashboard');
