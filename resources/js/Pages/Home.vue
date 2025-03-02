@@ -21,6 +21,38 @@
 
             <CarrosselPatrimonio />
         </section>
+
+        <section class="max-w-[1200px] mx-auto my-16">
+            <div class="mx-auto text-center">
+                <h2 class="text-3xl font-bold text-gray-800">O Que é Patrimônio Cultural?</h2>
+                <p class="text-gray-600 mt-2">Patrimônio cultural é o conjunto de bens, materiais e imateriais, que representam a identidade e a memória de um povo.</p>
+            </div>
+
+            <div class="mt-10 grid md:grid-cols-2 gap-6">
+                <div class="bg-white p-6 shadow-md rounded-lg">
+                    <h3 class="text-xl font-semibold text-gray-700">🏛 Patrimônio Material</h3>
+                    <p class="text-gray-600 mt-2">Conjunto de bens físicos e construções históricas como igrejas, museus e monumentos.</p>
+                </div>
+
+                <div class="bg-white p-6 shadow-md rounded-lg">
+                    <h3 class="text-xl font-semibold text-gray-700">🎭 Patrimônio Imaterial</h3>
+                    <p class="text-gray-600 mt-2">Tradições, festas, danças, músicas e expressões culturais transmitidas entre gerações.</p>
+                </div>
+
+                <div class="bg-white p-6 shadow-md rounded-lg">
+                    <h3 class="text-xl font-semibold text-gray-700">🌿 Patrimônio Natural</h3>
+                    <p class="text-gray-600 mt-2">Paisagens, ecossistemas e áreas protegidas que possuem valor cultural e ambiental.</p>
+                </div>
+
+                <div class="bg-white p-6 shadow-md rounded-lg">
+                    <h3 class="text-xl font-semibold text-gray-700">🏡 Patrimônio Arquitetônico</h3>
+                    <p class="text-gray-600 mt-2">Edificações e conjuntos urbanos que representam um período histórico.</p>
+                </div>
+            </div>
+        </section>
+
+
+
     </Layout>
 </template>
 
