@@ -1,11 +1,6 @@
 <template>
-    <footer class="bg-gray-900 relative overflow-hidden
-        after:content-[''] after:absolute after:w-full after:h-2 after:bg-[#2570e9] after:top-0
-    ">
-        <div class="max-w-[1200px] mx-auto py-8 px-2 flex justify-between items-center
-            after:content-[''] after:absolute after:size-24 after:rounded-full after:bg-[#2570e9] after:-top-14 after:-left-14
-            before:content-[''] before:absolute before:size-24 before:rounded-full before:bg-[#2570e9] before:-bottom-20 before:-right-14
-        ">
+    <footer class="bg-gray-900 overflow-hidden">
+        <div class="max-w-[1200px] mx-auto py-8 px-2 flex justify-between items-center">
             <h2 class="text-white text-2xl font-bold uppercase tracking-[.4rem] flex flex-col gap-1">
                 <span>patrimônio</span>
                 <span>cultural</span>

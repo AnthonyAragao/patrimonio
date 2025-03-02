@@ -1,18 +1,27 @@
 <script setup>
     import Layout from '@/Layouts/Layout.vue';
+    import Breadcrumb from '@/Components/Navigation/Breadcrumb.vue';
 </script>
 
 <template>
     <Layout>
-        <section class="relative mb-20">
+        <section class="relative mb-16">
             <div class="w-full h-[150px] overflow-hidden -mt-36 rounded-b-[30%] relative">
                 <div class="before:content-[''] before:absolute before:rounded-b-[30%] before:w-full before:h-full before:bg-gray-900 before:opacity-[.70]"></div>
                 <img src="/images/sergipe.jpg" alt="Sergipe" class="w-full object-cover">
             </div>
+
+            <div class="max-w-[1200px] mx-auto absolute -bottom-4 left-0 right-0">
+                <Breadcrumb :breadcrumbs="[
+                    { name: 'Início', href: '/' },
+                    { name: 'Bens Tombados', href: '/bens-tombados' },
+                    { name: 'Imóvel sito à Rua Barão do Rio Branco esquina com Rua Barão dos Campos Gerais - Lapa' }
+                ]" />
+            </div>
         </section>
 
         <section class="max-w-[1200px] mx-auto">
-            <div class="flex items-center gap-4 mb-4 relative before:content-[''] before:absolute before:w-4 before:top-0 before:bottom-0 before:bg-[#2570e9]">
+            <div class="flex items-center gap-4 my-4 relative before:content-[''] before:absolute before:w-4 before:top-0 before:bottom-0 before:bg-[#2570e9]">
                 <h1 class="text-4xl font-bold ml-8 text-gray-800">Imóvel sito à Rua Barão do Rio Branco esquina com Rua Barão dos Campos Gerais - Lapa</h1>
             </div>
 

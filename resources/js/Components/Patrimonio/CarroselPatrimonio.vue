@@ -61,7 +61,7 @@
                     />
 
                     <p class="text-center text-black mt-2 font-bold">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique est, consequatur animi ad dignissimos excepturi.
+                        Imóvel sito à Rua Barão do Rio Branco esquina com Rua Barão dos Campos Gerais - Lapa
                     </p>
                 </Link>
             </SwiperSlide>
