@@ -22,7 +22,7 @@
                 <div>
                     <h2 class="uppercase text-white text-2xl font-bold">Minuto Patrimônio</h2>
                     <p class="text-white mt-2">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique est.
+                        Conheça os bens tombados e a história que eles contam sobre a cultura sergipana.
                     </p>
                 </div>
             </div>

@@ -31,7 +31,7 @@
                 <h2 class="text-3xl font-bold text-gray-800">O Que é Patrimônio Cultural?</h2>
             </div>
 
-            <p class="text-gray-600 mt-2 text-center">O patrimônio cultural protegido diz respeito aos bens culturais, materiais ou imateriais, que, em função de seu valor histórico, artístico, estético, afetivo, simbólico, dentre outros, receberam algum tipo de proteção pelo poder público, tal o como tombamento, o registro imaterial, o inventário ou outras formas de acautelamento previstas na legislação.</p>
+            <p class="text-gray-600 mt-2 text-center">O patrimônio cultural protegido abrange bens materiais e imateriais que possuem relevância histórica, artística, estética, simbólica ou afetiva. Esses bens são resguardados pelo poder público por meio de tombamento, registro imaterial, inventário ou outras formas de proteção previstas na legislação.</p>
 
             <div class="mt-10 grid md:grid-cols-2 gap-6">
                 <div class="bg-white p-6 shadow-md rounded-lg hover:shadow-lg transition-all duration-300 ease-in-out">
