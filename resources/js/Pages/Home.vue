@@ -12,12 +12,12 @@
         <div class="w-full h-[2px] bg-gray-100"></div>
 
         <section class="max-w-[1200px] mx-auto my-20">
-            <div class="flex items-center justify-center gap-1">
+            <div class="flex items-center justify-center gap-4 after:content-[''] relative after:absolute after:w-1/4 after:h-[2px] after:bg-blue-300 after:-bottom-1">
                 <img src="/images/monumento.png" alt="monumento" class="size-14">
                 <h2 class="text-3xl font-bold text-gray-800">O Que é Patrimônio Cultural?</h2>
             </div>
 
-            <p class="text-gray-600 mt-2 text-center">O patrimônio cultural protegido abrange bens materiais e imateriais que possuem relevância histórica, artística, estética, simbólica ou afetiva. Esses bens são resguardados pelo poder público por meio de tombamento, registro imaterial, inventário ou outras formas de proteção previstas na legislação.</p>
+            <p class="text-gray-800 mt-6 text-center">O patrimônio cultural protegido abrange bens materiais e imateriais que possuem relevância histórica, artística, estética, simbólica ou afetiva. Esses bens são resguardados pelo poder público por meio de tombamento, registro imaterial, inventário ou outras formas de proteção previstas na legislação.</p>
 
             <div class="mt-10 grid md:grid-cols-2 gap-6">
                 <div class="bg-white p-6 shadow-md rounded-lg hover:shadow-lg transition-all duration-300 ease-in-out">
@@ -42,6 +42,57 @@
             </div>
         </section>
 
+        <div class="w-full h-[2px] bg-gray-100"></div>
+
+        <section class="max-w-[1200px] mx-auto my-20">
+            <div class="flex items-center justify-center gap-4 relative after:content-[''] after:absolute after:w-1/4 after:h-[2px] after:bg-blue-300 after:-bottom-1">
+                <img src="/images/protecao.png" alt="protecao" class="size-14">
+                <h2 class="text-3xl font-bold text-gray-800">Como Preservar o Patrimônio Cultural</h2>
+            </div>
+
+            <p class="text-gray-800 mt-8 text-center">A preservação do patrimônio cultural é uma responsabilidade compartilhada entre o poder público, a sociedade civil e os proprietários dos bens tombados. Ações de conservação, restauro, educação patrimonial e valorização da cultura são essenciais para garantir a perpetuação da memória e identidade de um povo.</p>
+        </section>
+
+        <div class="w-full h-[2px] bg-gray-100"></div>
+
+        <section class="max-w-[1200px] mx-auto my-20">
+            <div class="flex items-center justify-center gap-4 relative after:content-[''] after:absolute after:w-1/4 after:h-[2px] after:bg-blue-300 after:-bottom-1">
+                <img src="/images/seta-direita.png" alt="seta-direita" class="size-14">
+                <h2 class="text-3xl font-bold text-gray-800">
+                    Saiba Mais Sobre o Patrimônio Cultural de Sergipe
+                </h2>
+            </div>
+
+            <div class="flex justify-center space-x-8 mt-10">
+                <a
+                    href=""
+                    class=" font-bold text-xl px-10 py-4 rounded-full text-blue-500 border border-blue-500"
+                >
+                    Bens Tombados
+                </a>
+
+                <a
+                    href=""
+                    class=" font-bold text-xl px-10 py-4 rounded-full text-blue-500 border border-blue-500"
+                >
+                    Bens Registrados
+                </a>
+
+                <a
+                    href=""
+                    class=" font-bold text-xl px-10 py-4 rounded-full text-blue-500 border border-blue-500"
+                >
+                    Bens Inventariados
+                </a>
+
+                <a
+                    href=""
+                    class=" font-bold text-xl px-10 py-4 rounded-full text-blue-500 border border-blue-500"
+                >
+                    Bens Inventariados
+                </a>
+            </div>
+        </section>
     </Layout>
 </template>
 
