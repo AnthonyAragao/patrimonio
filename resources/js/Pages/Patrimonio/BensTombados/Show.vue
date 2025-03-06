@@ -27,7 +27,9 @@
 
             <p class="mt-6 text-gray-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse et earum nemo mollitia. Dolorem, assumenda quae iure ipsa dolore eligendi laborum eius excepturi dolores, nulla nostrum suscipit minima officia doloremque nihil ipsum placeat tempora. Laborum, natus laudantium hic voluptate sunt molestiae aperiam id veritatis eos?</p>
 
-            <div class="grid grid-cols-2 items-center gap-4 mt-10">
+            <div
+                class="grid grid-cols-2 items-center gap-4 mt-10 bg-gray-200 p-4 rounded-lg shadow-md border border-gray-400/20"
+            >
                 <img src="/images/sergipe.jpg" alt="Sergipe" class="w-full object-cover rounded-md">
 
                 <div class="space-y-2">
