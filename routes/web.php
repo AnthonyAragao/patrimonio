@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Admin\BemCulturalController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
@@ -8,6 +9,9 @@ use Inertia\Inertia;
 Route::get('/', function () {
     return Inertia::render('Home');
 });
+
+Route::resource('bem-culturais', BemCulturalController::class);
+
 
 Route::get('/bens-tombados/{slug}', function ($slug) {
     return Inertia::render('Patrimonio/BensTombados/Show');
