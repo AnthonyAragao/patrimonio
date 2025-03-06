@@ -6,8 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class BemCultural extends Model
 {
-    protected $table = 'bens_culturais';
+    protected $table   = 'bens_culturais';
     protected $guarded = [];
+    protected $hidden  = ['categoria_id', 'localizacao_id'];
+    protected $with    = ['categoria', 'localizacao', 'imagens'];
 
     public function categoria()
     {

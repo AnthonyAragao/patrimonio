@@ -14,9 +14,8 @@ return new class extends Migration
             $table->string('cidade');
             $table->string('estado');
             $table->string('cep');
-            $table->decimal('latitude', 10, 7);
-            $table->decimal('longitude', 10, 7);
-            $table->timestamps();
+            $table->string('latitude');
+            $table->string('longitude');
         });
     }
 

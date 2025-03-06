@@ -18,7 +18,6 @@ return new class extends Migration
             $table->boolean('ativo')->default(true);
             $table->foreignId('categoria_id')->constrained('categorias');
             $table->foreignId('localizacao_id')->constrained('localizacoes');
-            $table->boolean('aprovado')->default(false);
         });
     }
 
