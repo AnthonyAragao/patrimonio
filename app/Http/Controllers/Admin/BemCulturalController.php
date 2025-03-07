@@ -16,7 +16,7 @@ class BemCulturalController extends Controller
 
     public function index()
     {
-        $bensCulturais = $this->bemCultural->get();
+        $bensCulturais = $this->bemCultural->paginate(10);
         $categorias = Categoria::all();
 
         return Inertia::render('Admin/BemCultural/Index', [
