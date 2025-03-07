@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
 use App\Models\BemCultural;
+use App\Models\Categoria;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 
@@ -16,10 +17,11 @@ class BemCulturalController extends Controller
     public function index()
     {
         $bensCulturais = $this->bemCultural->get();
-        dd($bensCulturais[0]);
+        $categorias = Categoria::all();
 
         return Inertia::render('Admin/BemCultural/Index', [
-            'bensCulturais' => $bensCulturais
+            'bensCulturais' => $bensCulturais,
+            'categorias' => $categorias
         ]);
     }
 
