@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-gray-900 overflow-hidden">
+    <footer class="bg-gray-900 overflow-hidden rounded-t-[10%]">
         <div class="max-w-[1200px] mx-auto py-8 px-2 flex justify-between items-center">
             <h2 class="text-white text-2xl font-bold uppercase tracking-[.4rem] flex flex-col gap-1">
                 <span>patrimônio</span>
