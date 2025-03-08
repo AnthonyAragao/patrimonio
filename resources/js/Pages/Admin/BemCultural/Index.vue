@@ -6,8 +6,6 @@
     import { ref } from 'vue';
 
     const { bensCulturais, categorias } = defineProps(['bensCulturais', 'categorias']);
-    const showModal = ref(true);
-    const closeModal = () => showModal.value = false;
 
     const selectedBemCultural = ref(null);
 
@@ -33,6 +31,7 @@
             </a>
         </div>
 
+        
         <!-- filtros -->
         <div class="flex items-center justify-between mt-10">
             <div class="flex gap-2">
