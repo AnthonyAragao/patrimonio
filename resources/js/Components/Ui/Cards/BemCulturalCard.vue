@@ -5,7 +5,8 @@
 <template>
     <a
         href="#"
-        class= "cursor-pointer min-h-[540px] rounded-md bg-white border-[1.5px] border-gray-200 relative"
+        @click="$emit('openModal', bemCultural)"
+        class= "cursor-pointer min-h-[470px] rounded-md bg-white border-[1.5px] border-gray-200 relative"
     >
         <div class="h-[200px] overflow-hidden rounded-md">
             <img
@@ -18,14 +19,13 @@
         <div class="mx-4">
             <div class="py-4">
                 <h1 class="text-xl font-bold line-clamp-2">{{ bemCultural.nome }}</h1>
-                <p class="text-sm mt-2 text-gray-500 line-clamp-4">{{ bemCultural.descricao }}</p>
+                <p class="text-sm mt-2 text-gray-500 line-clamp-2">{{ bemCultural.descricao }}</p>
 
                 <div class="flex gap-2 mt-2">
                     <span class="inline-block bg-blue-100 text-blue-800 font-semibold text-xs px-4 py-1 rounded-full">
                         {{ bemCultural.categoria.nome }}
                     </span>
 
-                    <!-- ativo -->
                     <span
                         :class="bemCultural.ativo
                             ? 'bg-green-100 text-green-800'
