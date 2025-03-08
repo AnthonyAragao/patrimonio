@@ -6,7 +6,7 @@
     <a
         href="#"
         @click="$emit('openModal', bemCultural)"
-        class= "cursor-pointer min-h-[470px] rounded-md bg-white border-[1.5px] border-gray-200 relative"
+        class= "cursor-pointer min-h-[500px] rounded-md bg-white border-[1.5px] border-gray-200 relative"
     >
         <div class="h-[200px] overflow-hidden rounded-md">
             <img

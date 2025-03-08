@@ -8,7 +8,7 @@ use App\Models\Categoria;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
 
-class BemCulturalController extends Controller
+class PatrimonioController extends Controller
 {
     public function __construct(
         private BemCultural $bemCultural

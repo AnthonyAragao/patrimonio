@@ -18,7 +18,7 @@
                 <i class="fas fa-times text-2xl"></i>
             </button>
 
-            <h2 class="text-3xl font-bold">{{ bemCultural.nome }}</h2>
+            <h2 class="text-3xl font-bold mr-8">{{ bemCultural.nome }}</h2>
             <p class="text-gray-700 mt-2">{{ bemCultural.descricao }}</p>
 
             <div
