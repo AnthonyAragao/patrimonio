@@ -1,6 +1,7 @@
 <script setup>
     import Layout from '@/Layouts/Layout.vue';
     import Hero from '@/Components/Patrimonio/Hero.vue';
+    import MapaPatrimonio from '@/Components/Patrimonio/MapaPatrimonio.vue';
 </script>
 
 <template>
@@ -9,10 +10,22 @@
     <Layout>
         <Hero />
 
-        <!-- <div class="w-full h-[2px] bg-gray-100"></div> -->
+        <div class="max-w-[1200px] mx-auto">
+            <div class="flex items-center justify-center mb-4">
+                <img src="/images/mapa.png" alt="mapa" class="size-10 inline-block mr-2">
+                <span class="text-[2.5rem] font-bold text-gray-950">Mapa do Patrimônio Cultural de Sergipe</span>
+            </div>
+
+            <div class="rounded-xl overflow-hidden">
+                <MapaPatrimonio />
+            </div>
+        </div>
 
         <section class="max-w-[1200px] mx-auto my-28">
-            <h2 class="text-center text-[2.5rem] font-bold text-black">O Que é Patrimônio Cultural?</h2>
+            <div class="flex items-center justify-center">
+                <img src="/images/monumento.png" alt="monumento" class="size-10 mr-2">
+                <h2 class="text-[2.5rem] font-bold text-black">O Que é Patrimônio Cultural?</h2>
+            </div>
             <p class="text-gray-800 mt-4 text-center">O patrimônio cultural protegido abrange bens materiais e imateriais que possuem relevância histórica, artística, estética, simbólica ou afetiva. Esses bens são resguardados pelo poder público por meio de tombamento, registro imaterial, inventário ou outras formas de proteção previstas na legislação.</p>
 
             <div class="mt-10 grid md:grid-cols-3 gap-6">
@@ -68,7 +81,6 @@
                 </div> -->
             </div>
         </section>
-
 
         <section class="max-w-[1200px] mx-auto my-20">
             <div class="grid grid-cols-2 px-10 py-20 rounded-3xl bg-blue-400">

@@ -1,9 +1,10 @@
 <script setup>
+    import { ref } from 'vue';
     import AdminLayout from '@/Layouts/AdminLayout.vue';
     import BemCulturalCard from '@/Components/Ui/Cards/BemCulturalCard.vue';
     import Pagination from '@/Components/Navigation/Pagination.vue';
     import BemCulturalModal from '@/Components/Ui/Modals/BemCulturalModal.vue';
-    import { ref } from 'vue';
+    import MapaPatrimonio from '@/Components/Patrimonio/MapaPatrimonio.vue';
 
     const { bensCulturais, categorias } = defineProps(['bensCulturais', 'categorias']);
 
@@ -31,7 +32,7 @@
             </a>
         </div>
 
-        
+
         <!-- filtros -->
         <div class="flex items-center justify-between mt-10">
             <div class="flex gap-2">

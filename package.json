@@ -21,6 +21,8 @@
         "vue": "^3.4.0"
     },
     "dependencies": {
-        "swiper": "^11.2.4"
+        "leaflet": "^1.9.4",
+        "swiper": "^11.2.4",
+        "vue-leaflet": "^0.1.0"
     }
 }
