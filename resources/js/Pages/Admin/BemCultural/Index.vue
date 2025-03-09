@@ -32,7 +32,6 @@
             </a>
         </div>
 
-
         <!-- filtros -->
         <div class="flex items-center justify-between mt-10">
             <div class="flex gap-2">

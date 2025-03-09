@@ -12,6 +12,7 @@ return new class extends Migration
             $table->id();
             $table->string('nome');
             $table->string('descricao');
+            $table->string('slug')->unique();
             $table->string('processo');
             $table->string('proprietario');
             $table->text('historico');

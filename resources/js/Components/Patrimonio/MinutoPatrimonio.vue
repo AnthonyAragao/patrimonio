@@ -53,7 +53,7 @@
                 v-for="(banner, index) in banners"
                 :key="index"
             >
-                <Link href="/bens-tombados/teste">
+                <Link href="/patrimonios/teste">
                     <img
                         :src="banner"
                         :alt="'Banner ' + (index + 1)"

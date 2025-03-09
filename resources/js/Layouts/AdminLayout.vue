@@ -1,3 +1,14 @@
+<script setup>
+    import { useForm } from '@inertiajs/vue3';
+
+    const form = useForm();
+
+    const logout = () => {
+        form.post(route('logout'));
+    };
+</script>
+
+
 <template>
     <header
         class="px-6 py-2 flex justify-between items-center bg-gray-100 border-b border-gray-100 shadow-md fixed top-0 left-0 right-0 z-20"
@@ -9,7 +20,7 @@
         </h1>
 
         <button
-            type="submit"
+            @click="logout"
             class="bg-red-600 text-white px-4 py-1 rounded-md shadow-md font-bold hover:bg-red-700 transition duration-300"
         >
             <i class="fas fa-sign-out-alt"></i> Sair
@@ -20,3 +31,4 @@
         <slot></slot>
     </main>
 </template>
+

@@ -10,24 +10,26 @@ Route::get('/', function () {
     return Inertia::render('Home');
 });
 
-Route::prefix('admin')->name('admin.')->group(function () {
-    Route::resource('patrimonios', PatrimonioController::class);
+
+
+Route::get('/patrimonios/{slug}', function ($slug) {
+    return Inertia::render('Patrimonio/Show');
 });
 
 
-Route::get('/bens-tombados/{slug}', function ($slug) {
-    return Inertia::render('Patrimonio/BensTombados/Show');
-});
-
-
-Route::get('/dashboard', function () {
-    return Inertia::render('Dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+// Route::get('/dashboard', function () {
+//     return Inertia::render('Dashboard');
+// })->middleware(['auth', 'verified'])->name('dashboard');
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
+
+    Route::prefix('admin')->name('admin.')->group(function () {
+        Route::redirect('/', '/admin/patrimonios');
+        Route::resource('patrimonios', PatrimonioController::class);
+    });
 });
 
 require __DIR__.'/auth.php';

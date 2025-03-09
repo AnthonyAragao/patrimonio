@@ -9,7 +9,12 @@ class CategoriaSeeder extends Seeder
 {
     public function run(): void
     {
-        $categorias = ['Patrimônio Material', 'Patrimônio Imaterial', 'Patrimônio Natural', 'Patrimônio Misto'];
+        $categorias = [
+            'Patrimônio Material',
+            'Patrimônio Imaterial',
+            'Patrimônio Natural'
+            // 'Patrimônio Misto'
+        ];
 
         foreach ($categorias as $categoria) {
             DB::table('categorias')->insert([
