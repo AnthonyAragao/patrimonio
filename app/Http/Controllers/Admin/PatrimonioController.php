@@ -26,7 +26,11 @@ class PatrimonioController extends Controller
     }
 
     public function create()
-    {}
+    {
+        return Inertia::render('Admin/BemCultural/Form',[
+            'categorias' => Categoria::all()
+        ]);
+    }
 
 
     public function store(Request $request)

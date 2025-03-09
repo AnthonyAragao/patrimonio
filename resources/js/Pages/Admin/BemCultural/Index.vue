@@ -24,12 +24,12 @@
                 </h1>
             </div>
 
-            <a
-                href="/admin/products/create"
+            <Link
+                href="/admin/patrimonios/create"
                 class="text-sm bg-blue-600 text-white px-4 py-2 rounded-md shadow-md font-bold hover:bg-blue-700 transition duration-300"
             >
                 <i class="fas fa-plus"></i> Adicionar Bem Cultural
-            </a>
+            </Link>
         </div>
 
         <!-- filtros -->
